@@ -30,6 +30,6 @@ public class LivingThing {
         hitPoint -= damage;
         if( hitPoint < 0 ) {
             dead = true;
-            System.out.printf("%sは倒れた。\n", name);
+            System.out.printf("%sは倒れた。!\n", name);
     }
 }}
